@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serifs;
+    
+  }
+
+nav{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    height: 60px;
+    color: #0d204d;
+}
+
+nav img{
+    margin-top: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    float: right;
+    margin: 30px 10px 0px 650px;
+}
+
+nav ul li{
+    padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+header div{
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    width: 100% ;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header div h1{
+    padding-top: 250px;
+    font-size: 80px;
+}
+
+header div h5{
+    padding-bottom: 250px;
+    font-size: 25px;
+}
+
+.section1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 45px;
+    color: #333c4e;
+}
+
+.section1 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 200px;
+    height: 2px;
+    border-style: solid;
+    margin-left: 43%;
+
+}
+
+.section2{
+    display: flex;
+    color: rgb(104, 101, 101);
+    line-height: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section2 div{
+    width: 70%;
+    margin-left: 40px;
+    align-self: center;
+    text-align: left;
+}
+
+.section2 div h2{
+    color: #333c4e;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.section2 img{
+    width: 20%;
+    height: 280px;
+}
+.section3{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #333c4e;
+}
+
+.section3 h4{
+    margin-bottom: 80px;
+}
+
+.section3 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.section3 div{
+    display: flex;
+    width: 100%;
+}
+
+.section3 div img{
+    width: 500px;
+    height: 550px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+#line4 img{
+    width: 450px;
+    height: 500px;
+}
+
+#line3{
+    width: 430px;
+    height: 550px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #333c4e;
+    padding: 30px 0px 30px 0px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.OmNhéathGannigui{
+background-image: url("images/IMG-20231123-WA0008.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+width: 500px;
+height: 550px;
+padding: 20px;
+border-radius: 50px;
+text-align: center;
+display: block !important;
+margin: 20px;
+
+}
+
+
+.Qualités{
+
+    align-self: self-end;
+    display: block !important;
+    width: 50% !important;
+    padding: 5px;
+    margin-right: 50%;
+
+}
+.Qualités h4{
+    text-decoration: underline;
+    color:green;
+
+}
+.Défauts{
+align-self: flex-end;
+display: block !important;
+width: 50% !important;
+padding: 5px;
+margin-right: 50%;
+}
+
+.Défauts h4{
+    text-decoration: underline;
+    color:orange;
+}
